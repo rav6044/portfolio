@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravi Pandey | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1>Ravi Pandey</h1>
+    <p>Aspiring Software Developer | C++ & DSA Enthusiast</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button onclick="toggleDarkMode()" id="darkToggle">🌙</button>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am Ravi Pandey, a final-year B.Sc. Mathematics student, currently pursuing the A Level course at NIELIT. I specialize in C++, Data Structures & Algorithms, and am preparing for a career as an SDE intern. I regularly solve problems on LeetCode and share solutions on LinkedIn.</p>
+  </section>
+
+  <section id="projects" data-aos="fade-right">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> This responsive website showcases my skills and achievements.</li>
+      <li><strong>Best Time to Buy and Sell Stock:</strong> LeetCode solution using C++, optimized with time and space complexity.</li>
+      <li><strong>DSA Series on LinkedIn:</strong> Posting daily problem solutions to build a technical presence.</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-left">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label for="name">Name:</label><br />
+      <input type="text" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="_replyto" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+  <footer>
+    <p>© 2025 Ravi Pandey | <a href="https://linkedin.com/in/ravi-pandey13060" target="_blank">LinkedIn</a> | <a href="https://github.com/rav6044" target="_blank">GitHub</a></p>
+  </footer>
+
+  <!-- JS & AOS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>

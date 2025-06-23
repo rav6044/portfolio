@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravi Pandey | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  
+</head>
+<body>
+
+  <header data-aos="fade-down" data-aos-duration="1000">
+    <h1 data-aos="zoom-in" data-aos-delay="200">Ravi Pandey</h1>
+    <p id="subtitle">Aspiring Software Developer | C++ & DSA Enthusiast</p>
+
+    <nav data-aos="fade-up" data-aos-delay="400">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button onclick="toggleDarkMode()" id="darkToggle" data-aos="flip-left" data-aos-delay="500">🌙</button>
+  </header>
+
+  <section id="about" data-aos="fade-up" data-aos-delay="100">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Ravi Pandey</strong>, a passionate final-year B.Sc. Mathematics student at <strong>CSJMU</strong>, pursuing the <strong>A Level course</strong> at <strong>NIELIT</strong>.</p>
+    <p>I specialize in <strong>C++</strong>, <strong>Data Structures & Algorithms</strong>, and have a deep interest in problem-solving. I consistently practice on platforms like <strong>LeetCode</strong> and <strong>Codeforces</strong>.</p>
+    <p>My goal is to secure an SDE internship where I can apply my skills, contribute to real-world projects, and grow alongside experienced developers. I'm a fast learner and open to collaboration in open-source and freelance projects too.</p>
+    <a href="Resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <section id="skills" data-aos="fade-up" data-aos-delay="150">
+    <h2>Skills</h2>
+    <ul>
+      <li>C++, STL</li>
+      <li>Data Structures & Algorithms</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>Problem Solving (LeetCode)</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-right" data-aos-delay="200">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Portfolio Website:</strong> This responsive website showcases my skills and achievements.
+        <a href="https://github.com/rav6044/portfolio" target="_blank">[GitHub]</a>
+      </li>
+      <li>
+        <strong>Best Time to Buy and Sell Stock:</strong> LeetCode solution using C++, optimized with time and space complexity.
+        <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank">[LeetCode]</a>
+        <a href="https://github.com/rav6044/leetcode-solutions" target="_blank">[GitHub]</a>
+      </li>
+      <li>
+        <strong>DSA Series on LinkedIn:</strong> Posting daily problem solutions to build a technical presence.
+        <a href="https://linkedin.com/in/ravi-pandey13060" target="_blank">[LinkedIn]</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="blog" data-aos="fade-up" data-aos-delay="300">
+    <h2>Technical Blog</h2>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/posts/ravi-pandey13060_dsa-coding-activity-123456789/" target="_blank">
+          How I Solved 100+ LeetCode Problems in 3 Months
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/posts/ravi-pandey13060_cpp-stl-activity-987654321/" target="_blank">
+          Mastering C++ STL for Competitive Programming
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+  <footer data-aos="zoom-in" data-aos-delay="500">
+    <p>© 2025 Ravi Pandey |
+      <a href="https://linkedin.com/in/ravi-pandey13060" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/rav6044" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <!-- JS & AOS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>
